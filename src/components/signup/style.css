@@ -1,0 +1,62 @@
+#signup-page,
+#register-success-page {
+    padding: 10px;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#signup-page .signup-form,
+#register-success-page .register-success-wrapper {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 60%;
+    padding: 20px;
+}
+
+#register-success-page .register-success-wrapper {
+    max-width: 50%;
+}
+
+#signup-page .signup-form #signup {
+    width: 100%;
+}
+
+#signup-page .signup-form .form-check{
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+#signup-page .signup-form .card-footer,
+#register-success-page .register-success-wrapper .card-footer {
+    color: #777777;
+    background-color: #fff;
+    padding: 1rem 1.25rem;
+}
+
+@media only screen and (max-width: 1199px) {
+    #signup-page .signup-form,
+    #register-success-page .register-success-wrapper {
+        max-width: 70%;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #signup-page .signup-form,
+    #register-success-page .register-success-wrapper {
+        max-width: 80%;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #signup-page .signup-form,
+    #register-success-page .register-success-wrapper {
+        max-width: 100%;
+        padding: 15px 0;
+    }
+}

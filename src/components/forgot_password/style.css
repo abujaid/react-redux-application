@@ -1,0 +1,67 @@
+#forgot-password-page, #reset-password-page, #recovery-instruction-page, #reset-success-page {
+    padding: 10px;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#forgot-password-page .callout {
+    border-left-color: #17a2b8;
+}
+
+#forgot-password-page .forgot-password-form,
+#reset-password-page .reset-password-form,
+#recovery-instruction-page .recovery-instruction-wrapper,
+#reset-success-page .reset-success-wrapper {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 50%;
+    padding: 20px;
+}
+
+#forgot-password-page .forgot-password-form #forgot-password,
+#reset-password-page .reset-password-form #reset-password {
+    width: 100%;
+}
+
+#forgot-password-page .forgot-password-form .card-footer,
+#reset-password-page .reset-password-form .card-footer,
+#recovery-instruction-page .recovery-instruction-wrapper .card-footer,
+#reset-success-page .reset-success-wrapper .card-footer {
+    color: #777777;
+    background-color: #fff;
+    padding: 1rem 1.25rem;
+}
+
+@media only screen and (max-width: 1199px) {
+    #forgot-password-page .forgot-password-form,
+    #reset-password-page .reset-password-form,
+    #recovery-instruction-page .recovery-instruction-wrapper,
+    #reset-success-page .reset-success-wrapper {
+        max-width: 70%;
+        padding: 15px 15px 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #forgot-password-page .forgot-password-form,
+    #reset-password-page .reset-password-form,
+    #recovery-instruction-page .recovery-instruction-wrapper,
+    #reset-success-page .reset-success-wrapper {
+        max-width: 80%;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #forgot-password-page .forgot-password-form,
+    #reset-password-page .reset-password-form,
+    #recovery-instruction-page .recovery-instruction-wrapper,
+    #reset-success-page .reset-success-wrapper {
+        max-width: 100%;
+        padding: 15px 0;
+    }
+}

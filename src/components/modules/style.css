@@ -1,0 +1,319 @@
+section {
+    position: relative;
+    padding: 85px 20px 20px;
+    min-height: 100vh;
+}
+
+.callout.subscription-notification {
+    padding: 15px 10px;
+    border-left-color: #17a2b8;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,0.25);
+}
+
+.module-content {
+    padding: 20px;
+    margin-top: 1.25rem;
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,0.25);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.react-bootstrap-table-pagination #pageDropDown {
+    width: auto;
+    height: auto;
+}
+
+.react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul {
+    float: right;
+    margin-top: 0px; 
+}
+
+.react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul .page-item .page-link {
+    color: #17a2b8 !important;
+    font-size: 0.875rem;
+}
+
+.react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul .page-item.active .page-link,
+.react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul .page-item.active .page-link:hover {
+    background-color: #17a2b8; /*#e9ecef;*/
+    border-color: #17a2b8; /*#dee2e6;*/
+    color: #ffffff !important;
+}
+
+.react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul .page-item .page-link:hover {
+    color: #138496 !important;
+}
+  
+.react-bootstrap-table-pagination .react-bootstrap-table-pagination-list-hidden {
+    display: none; 
+}
+
+.page-viewer {
+    min-height: 350px !important;
+}
+
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* overflow: hidden; */
+  }
+  
+  .searchIcon {
+    padding: 0.5rem;
+  }
+  
+  .searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 10px;
+    flex: 1;
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
+
+.searchBox {
+    background: url('./../../images/search.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    padding-left: 25px;
+    padding-right: 23px;
+}
+
+
+.searchContainer .searchBox + div{
+    position: absolute !important;
+    z-index: 1;
+    top: 42px !important;
+    left: 0px !important;
+    max-height: 200px !important;
+}
+.searchContainer .searchBox + div div{
+    padding: 5px;
+}
+
+  
+/** Transcript Design */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Transcript-table {
+    padding: 20px 15px 40px;
+    background: white;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.transcript-detail .top-section h3, .transcript-detail .top-section label {
+    margin: 0;
+    font-size: 20px;
+}
+.transcript-detail .top-section h3 {
+    padding-top: 3px;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.transcript-des {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.player-info {
+    font-size: 12px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.comment-font{
+    font-size: 20px !important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.final-course {
+    background: #fff;
+    border: 1px solid #d9d8d8;
+    padding: 15px;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+div {
+    display: block;
+}
+.transcript-detail .top-section {
+    background: #17a2b8;
+    width: 100%;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.transcript-des {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+}
+
+/** Style for print button and print page content */
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.badge-transcript, .badge-certificate {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 79%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    width: 7em;
+    height: 2.5em;
+    cursor: pointer;
+}
+
+.badge-transcript-color, .badge-certificate-color {
+    width: 6em;
+    height: 2.5em;
+    color: #fff;
+    background-color: #6c757d !important;
+}
+
+.reactprintclass button{
+    display: none;
+}
+
+.table th, .table td {
+   border-top: 0px solid #dee2e6; 
+}
+
+/* Certicate style */
+
+.certificate-detail .top-section {
+    background: #fff;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.activities-form #activities label{
+    line-height: 13px;
+}
+
+.flight-size.headingtop{
+    font-size: 19px;
+    font-weight: 600;
+}
+.banner-text .headingSub{
+    font-size: 0.95rem !important;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin: 1em auto 0px auto;
+    display: inline-block;    
+    color: #fff;
+
+}
+.justify-content-space-bitween{
+    justify-content: space-between;
+}
+footer .copyright p.copyright-mobile{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {   
+    footer .copyright{
+        display: inline-block !important;
+        width:100%;
+        text-align: center;
+    }
+    footer .copyright .ml-auto{
+        float:left;
+        width:100%;
+    }
+    footer .copyright .ml-auto li{        
+        width:100%;
+        text-align: center;
+    }
+    footer .copyright p{
+        display: none;
+    }
+    footer .copyright p.copyright-mobile{
+        float:none;
+        width:100%;
+        display: block;        
+    }
+    .modal-body .alert-secondary .d-flex{
+        display: inline-block !important;
+        width:100%;
+    }
+    .modal-body .alert-secondary .d-flex .btn{
+        float:right;
+        margin-top: 5px;
+    }
+}
+
+/* paypal button design override */
+.zoid-outlet
+{
+    z-index: 1;
+}
+
+  
+
+  
+  
+  
+
+  
+
+  
